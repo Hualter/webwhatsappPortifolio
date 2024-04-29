@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Portifólio - Whatsapp Web</title>
+    
+    <!--Meu CSS-->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    
+    <!--Google fontes e icones-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-section p-2">
+                <img src="assets/imgs/profilePic.png" alt="Foto de Perfil" class="profile-photo">
+                <h2>Hualter - Full Stack Developer</h2>
+            </div>
+
+            <div class="search-bar p-2">
+                <input type="text" placeholder="Informações abaixo" disabled>
+            </div>
+
+            <div class="contacts">
+                <div class="contact" id="contact1" onclick="selectContact(this)">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="Contato 1">
+                    <div class="contact-info">
+                        <h3>Sobre mim</h3>
+                        <p>Conte-me um pouco sobre você...</p>
+                    </div>
+                    <span class="contact-time">07:31</span> 
+                </div>
+                <div class="contact" onclick="selectContact(this)">
+                    <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" alt="Contato 2">
+                    <div class="contact-info">
+                        <h3>Projetos</h3>
+                        <p>Me mostre alguns dos seus projetos...</p>
+                    </div>
+                    <span class="contact-time">07:26</span> 
+                </div>
+                <div class="contact" onclick="selectContact(this)">
+                    <img src="https://cdn-icons-png.flaticon.com/512/201/201614.png" alt="Contato 4">
+                    <div class="contact-info">
+                        <h3>Formação Acadêmica</h3>
+                        <p>Fale um pouco sobre sua formação acadêmica...</p>
+                    </div>
+                    <span class="contact-time">07:15</span> 
+                </div>
+                <div class="contact" onclick="selectContact(this)">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="Contato 3">
+                    <div class="contact-info">
+                        <h3>Redes sociais</h3>
+                        <p>Quais são suas redes sociais?...</p>
+                    </div>
+                    <span class="contact-time">07:04</span>
+                </div>
+                <div class="contact" onclick="selectContact(this)">
+                    <img src="https://cdn.icon-icons.com/icons2/2992/PNG/512/whatsapp_logo_icon_187323.png" alt="Contato 5">
+                    <div class="contact-info">
+                        <h3>Repositório do Portifólio</h3>
+                        <p>Você tem o repositório desse portifólio pra me enviar?...</p>
+                    </div>
+                    <span class="contact-time">06:40</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-area">
+            <!-- Tela inicial -->
+            <div class="initial-screen">
+                <img src="/assets/imgs/profilePic.png" alt="Imagem central" class="central-image">
+                <h2>Bem-vindo ao meu Portfólio</h2>
+                <p>Hualter - FullStack Developer</p>
+                <p>Selecione um "contato" à esquerda para mais informações</p>
+            </div>
+
+            <div class="chat-header" style="display: none;">
+                <img src="contact-profile.jpg" alt="Foto de Perfil do Contato" class="contact-photo">
+                <h3 class="contact-name">Nome do Contato</h3>
+            </div>
+            <div class="chat-messages" style="display: none;">
+                <div class="message-received">
+                    <div class="bubble">
+                        <p>Mensagem recebida</p>
+                        <div class="message-info">
+                            <span class="message-time">12:34</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="message-sent">
+                    <div class="bubble">
+                        <p>Mensagem enviada</p>
+                        <div class="message-info">
+                            <span class="message-time">12:34</span>
+                            <span class="message-check">&#x2713;&#x2713;</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input" style="display: none;">
+                <svg class="MSbuttons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5"/>
+                </svg>
+                <input type="text" id="message-input" placeholder="Digite uma mensagem..." disabled> 
+                <svg class="MSbuttons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                    <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/>
+                    <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3"/>
+                  </svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

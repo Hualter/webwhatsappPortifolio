@@ -12,7 +12,7 @@ Assim criei o clone do Whatsapp Web para me apresentar.
 
 ## 📷 Screenshots do app
 
-![Tela Inicial]([https://media.discordapp.net/attachments/654854693826199552/1232451822887632947/TERMO_2.png?ex=662981b4&is=66283034&hm=58d814e5d64ff6c97b4d45ce241a76164a1cafe918cad0ea483239624dd877f0&=&format=webp&quality=lossless&width=1305&height=702](https://media.discordapp.net/attachments/654854693826199552/1234660403892715530/Opera_Instantaneo_2024-04-29_210630_26.211.254.70.png?ex=66318a9b&is=6630391b&hm=73eb508ecdd011108c632900c37e8371eac8164b3e38e8c659959a3aa04dc094&=&format=webp&quality=lossless&width=1305&height=702))
+![Tela Inicial](https://cdn.discordapp.com/attachments/654854693826199552/1234660403892715530/Opera_Instantaneo_2024-04-29_210630_26.211.254.70.png?ex=66318a9b&is=6630391b&hm=73eb508ecdd011108c632900c37e8371eac8164b3e38e8c659959a3aa04dc094&)
 
 ## Autores
 

@@ -11,12 +11,12 @@ body {
 
 .container {
     display: flex;
-    height: 970px;
-    width: 1080;
+    height: 95vh;
+    width: 100%;
 }
 
 .sidebar {
-    width: 500px;
+    width: 50vh;
     background-color: #111b21;
     border-right: 1px solid #2a3942;
 }
@@ -196,7 +196,6 @@ body {
     background: #000000 url(https://mcdn.wallpapersafari.com/medium/19/15/HlpKYq.png) center top/contain repeat;
 }
 
-/* Estilo para mensagens enviadas */
 .message-received {
     align-self: flex-end; 
     background-color: #005c4b; 
@@ -212,7 +211,6 @@ body {
     margin-top: 2%;
 }
 
-/* Estilo para mensagens recebidas */
 .message-sent {
     align-self: flex-start; 
     background-color: #202c33; 

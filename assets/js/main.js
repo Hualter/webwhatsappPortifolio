@@ -111,7 +111,7 @@ const chats = [
             { text: 'Você tem o repositório desse portifólio pra me enviar?', sent: false },
             { text: 'Claro tenho sim!', sent: true },
             { text: 'Aqui o link!', sent: true},
-            { text: 'Também tem o meu Github <a href="https://github.com/Hualter">https://github.com/Hualter</a>', sent: true},
+            { text: 'Esta no meu Github <a href="https://github.com/Hualter/webwhatsappPortifolio">https://github.com/Hualter/webwhatsappPortifolio</a>', sent: true},
             { text: 'Lembrando que esse portifólio foi feito todo com JavaScript, HTML e CSS', sent: true},
             { text: 'E esta sendo hospedado pelo Github Pages!', sent: true}
         ]

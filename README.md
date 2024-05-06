@@ -1,13 +1,13 @@
 ﻿
 # 📝 Portfólio (Whatsapp Web Clone) 📝
 
-Olá, bem-vindo ao meu Portifólio
+Olá, bem-vindo ao meu Portfólio
 
-Este pequeno aplicativo web foi desenvolvido com base no Whatsapp Web para apresentar meu portifólio.
+Este pequeno aplicativo web foi desenvolvido com base no Whatsapp Web para apresentar meu portfólio.
 Para desenvolver esse projeto utilizei o JavaScript, HTML e CSS  (Com Bootstrap), buscando deixar parecido com o original.
 
 Por que fiz esse projeto?
-Whatsapp Web é um dos aplicativos que mais utilizo, por isso achei que seria interessante desenvolver meu portifólio clonando esse app.
+Whatsapp Web é um dos aplicativos que mais utilizo, por isso achei que seria interessante desenvolver meu portfólio clonando esse app.
 Assim criei o clone do Whatsapp Web para me apresentar.
 
 ## 📷 Screenshots do app

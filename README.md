@@ -1,5 +1,5 @@
 ﻿
-# 📝 Portifólio (Whatsapp Web Clone) 📝
+# 📝 Portfólio (Whatsapp Web Clone) 📝
 
 Olá, bem-vindo ao meu Portifólio
 
